@@ -38,7 +38,7 @@ appConfig:
       - user: CJ
         hash: pass
         type: admin
-    enableKeycloak: true
+    enableKeycloak: false
   showSplashScreen: true
   preventWriteToDisk: false
   preventLocalSave: false
