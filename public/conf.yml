@@ -33,12 +33,12 @@ appConfig:
     hideSettings: false
     hideFooter: false
   auth:
-    enableGuestAccess: true
+    enableGuestAccess: false
     users:
-      - user: Admin CJ
-        hash: admin
+      - user: CJ
+        hash: pass
         type: admin
-    enableKeycloak: false
+    enableKeycloak: true
   showSplashScreen: true
   preventWriteToDisk: false
   preventLocalSave: false
