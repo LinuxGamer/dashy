@@ -35,21 +35,25 @@ appConfig:
   auth:
     enableGuestAccess: false
     users:
-      - user: CJ
-        hash: pass
-        type: admin
+    - user: cj
+      hash: 8C6976E5B5410415BDE908BD4DEE15DFB167A9C873FC4BB8A81F6F2AB448A918
+      type: admin
+    - user: cj2
+      hash: D74FF0EE8DA3B9806B18C877DBF29BBDE50B5BD8E4DAD7A3A725000FEB82E8F1
+    - user: guest
+      hash: 6DBB02F5DCCBB6146D248539E30A1BED4AB5CDD2761EB371E4BC5E26AAFA4D97
     enableKeycloak: false
   showSplashScreen: true
   preventWriteToDisk: false
   preventLocalSave: false
   disableConfiguration: false
-  disableConfigurationForNonAdmin: false
+  disableConfigurationForNonAdmin: true
   allowConfigEdit: true
   enableServiceWorker: false
   disableContextMenu: false
   disableUpdateChecks: false
   disableSmartSort: false
-  enableErrorReporting: false
+  enableErrorReporting: true
 sections:
   - name: Getting Started
     icon: fas fa-rocket
